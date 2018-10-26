@@ -1,0 +1,31 @@
+1)
+
+	B.
+	N	Stepsize	RK4 sol		Error					Ratio
+	10	0.3		-3.047430037285111	4.164107544113449e-06		---
+	20	0.15		-3.047426111760512	2.385829453999122e-07		17.453500446704524
+	40	0.075		-3.047425887458184	1.428061713326656e-08		16.706767163733808
+	80	0.0375		-3.047425874051080	8.735128176340368e-10		16.348491796544543
+	160	0.01875		-3.047425873231578	5.401101788038432e-11		16.172863462202560
+	320	0.009375	-3.047425873180925	3.358202604886174e-12		16.083311293308647
+
+
+2) 
+	A. From the plot, we can see that between 0.2 and 0.3 (S2 and S3), the production of the protein 
+	is activated. For .1 and .2, the amount of protien product remains low, but after at some point 	
+	between .2 and .3, the concentration of the chemical that activates the gene to produce the protein
+	is large enough. The threshold point must be between .2 and .3. The spike in the protien happens 
+	between t=20 and t=40 for when s is .3 and .4.
+	The equilibrium concentration for s=0.1 is 0.0785
+	The equilibrium concentration for s=0.2 is 0.2518
+	The equilibrium concentration for s=0.3 is 1.6806
+	The equilibrium concentration for s=0.4 is 1.7971
+	
+	B. From the plot, we can see that between .2 and .22 (S1 and S2), the production of the protien is 
+	activated. Before, we knew the jump in protein was between .2 and .3. Now, from the new plot, we can
+	narrow down the interval to between .2 and .22. The production of the protien is activated for .22, 
+	.24, and .26. We could further narrow down the interval by looking at points between .2 and .22.
+	The equilibrium concentration for s=0.2 is 0.02518
+	The equilibrium concentration for s=0.22 is 1.4734
+	The equilibrium concentration for s=0.24 is 1.6027
+	The equilibrium concentration for s=0.26 is 1.6300 
